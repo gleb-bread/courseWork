@@ -5,3 +5,13 @@ img {
 .img-mr-t-5 {
     margin-top: 5px;
 }
+
+.block-bg {
+    background-image: url(fon.jpg);
+    background-size: cover;
+}
+
+.block-bg>.col-7 {
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 0 0 10px 5px rgba(89, 107, 29, 0.5);
+}
