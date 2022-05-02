@@ -1,0 +1,47 @@
+.hero__block {
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 20px;
+}
+
+.icons__background {
+    background-color: #FFF3E4;
+}
+
+.icons__img--png {
+    background-color: #FFF3E4;
+}
+
+.icons__img {
+    background-color: #FFF3E4;
+}
+
+.hero__background {
+    background-color: #38242F;
+}
+
+.icons__img--png {
+    width: 350px;
+    height: 150px;
+}
+
+.icons__img--icon {
+    height: 100%;
+    font-size: cover;
+}
+
+.cart__map {
+    border-radius: 20px;
+}
+
+.cart__list {
+    list-style: none;
+}
+
+.cart__background {
+    background-color: #5FA0AF;
+}
+
+.container__backgraund--light {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .6);
+}
