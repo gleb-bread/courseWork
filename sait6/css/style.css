@@ -1,0 +1,173 @@
+.lesson {
+    display: flex;
+}
+
+.block {
+    position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.cub {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    position: absolute;
+    border: 3px solid red;
+}
+
+.blue {
+    position: absolute;
+    border: 3px solid blue;
+    top: 20%;
+    left: 20%;
+    z-index: 5;
+}
+
+.green {
+    position: absolute;
+    border: 3px solid green;
+    top: 40%;
+    left: 40%;
+    z-index: 6;
+}
+
+.bg-red {
+    position: absolute;
+    background-color: red;
+}
+
+.bg-blue {
+    position: absolute;
+    background-color: blue;
+    top: 20%;
+    left: 20%;
+    z-index: 5;
+}
+
+.bg-green {
+    position: absolute;
+    background-color: green;
+    top: 40%;
+    left: 40%;
+    z-index: 6;
+}
+
+.block-2 {
+    display: flex;
+}
+
+.red-2 {
+
+    border: 3px solid red;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.blue-2 {
+    border: 3px solid blue;
+    top: 20%;
+    left: 20%;
+    z-index: 5;
+    justify-self: center;
+    align-self: center;
+}
+
+.green-2 {
+    border: 3px solid green;
+    top: 40%;
+    left: 40%;
+    z-index: 6;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.block-3 {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    width: 600px;
+    height: 600px;
+    border: 3px solid lime;
+}
+
+.red-3 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    grid-column: 2/6;
+    grid-row: 2/6;
+}
+
+.smil {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.eye-1 {
+    position: absolute;
+    top: 15%;
+    left: 26%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.eye-2 {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.smile {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 300px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.block-4 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: lime;
+}
+
+.red-4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    top: 5%;
+    left: 5%;
+}
+
+.green-4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    bottom: 5%;
+    right: 5%;
+}
