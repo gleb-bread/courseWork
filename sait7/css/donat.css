@@ -1,0 +1,91 @@
+body {
+    background-color: #050D13;
+}
+
+.menu__container {
+    width: 97%;
+}
+
+.hero__icon--vk {
+    margin-right: 53px;
+}
+
+.navbar-nav {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    margin-right: 58px;
+}
+
+.nav-link {
+    margin-right: 53px;
+}
+
+.news {
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.card {
+    background: #0E151E;
+    max-width: 584px;
+    border-radius: 60px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.news__link {
+    background: rgba(255, 255, 255, 0.31);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-body {
+    padding-bottom: 44px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-img-top {
+    padding-bottom: 31px;
+}
+
+.card-text {
+    padding-bottom: 81px;
+}
+
+.contact__link {
+    display: flex;
+    justify-content: center;
+    background: #0E151E;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.contact__link-img {
+    display: block;
+    margin-right: 59px;
+}
+
+.footer {
+    padding: 35px 0;
+}
+
+.card-title--b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 18px;
+    color: rgba(228, 226, 238, 0.42);
+}
