@@ -1,0 +1,59 @@
+body {
+    background-image: url(../img/coffee-bd.jpg);
+}
+
+.coffee-btn {
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+    background-color: #B48B80;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.coffee-img {
+    height: 100px;
+    padding-right: 15px;
+}
+
+.coffee-btn:hover {
+    background-color: #AE9999;
+}
+
+.coffee-btn:active {
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.cofee__text {
+    display: block;
+    color: #6F445E;
+    align-self: center;
+    justify-self: center;
+}
+
+.container {
+    background-color: rgb(100, 95, 105);
+}
+
+#display {
+    height: 150px;
+    border: 3px groove black;
+    background-color: #B48B80;
+}
+
+.input-box {
+    height: 13px;
+    border: 3px solid grey;
+    background: #000000;
+}
+
+.shadow-green {
+    box-shadow: 0 0 10px 3px #28B423;
+}
+
+.bc-grey {
+    background-color: #C5C4B6;
+}

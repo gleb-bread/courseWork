@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Кофе</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cofee.css">
+</head>
+
+<body>
+    <div class="container my-5 p-5">
+        <div class="row justify-content-between">
+            <div class="bc-grey col-sm-9 p-5">
+                <div class="row justify-content-between">
+                    <div class="col-sm-4">
+                        <div class=" coffee-btn" onclick="GetCoffee('капучино',57)">
+                            <img src="img/kapuch.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Капучино 57 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="coffee-btn" onclick="GetCoffee('латте',88)">
+                            <img src="img/latte.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Латте 88 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="coffee-btn" onclick="GetCoffee('американно',44)">
+                            <img src="img/amer.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Американно 44 руб.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-sm-4">
+                        <div class=" coffee-btn" onclick="GetCoffee('раф',108)">
+                            <img src="img/raf.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Раф 108 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class=" coffee-btn" onclick="GetCoffee('экспрессо',66)">
+                            <img src="img/exp.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Экспрессо 66 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class=" coffee-btn" onclick="GetCoffee('капучино',77)">
+                            <img src="img/kapuch.png" alt="" class="coffee-img">
+                            <span class="cofee__text">Капучино - 77 руб.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 d-flex flex-column">
+                <div class="row">
+                    <div id="display" class="p-5 w-100"></div>
+                </div>
+                <div class="row d-flex flex-column-reverse h-100">
+                    <div class="input-box w-100" id="money"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="edu_js/script.js"></script>
+</body>
+
+</html>

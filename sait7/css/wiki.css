@@ -1,0 +1,138 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #050D13;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    justify-content: flex-end;
+}
+
+.menu__container {
+    width: 97%;
+}
+
+.hero__icon--vk {
+    margin-right: 53px;
+}
+
+.navbar-nav {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    margin-right: 58px;
+}
+
+.nav-link {
+    margin-right: 53px;
+}
+
+.news {
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.card {
+    background: #0E151E;
+    max-width: 584px;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 28px;
+}
+
+.news__link {
+    background: linear-gradient(180deg, #FF7044 0%, #FFC645 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-body {
+    padding-bottom: 44px;
+}
+
+.card-text {
+    font-size: 22px;
+}
+
+.card-img-top {
+    padding-bottom: 31px;
+}
+
+.card-text {
+    padding-bottom: 81px;
+}
+
+.contact__link {
+    display: flex;
+    justify-content: center;
+    background: #0E151E;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.contact__link-img {
+    display: block;
+    margin-right: 59px;
+}
+
+.footer {
+    padding: 35px 0;
+}
+
+.card {
+    width: 414px;
+    background-color: #050D13;
+}
+
+.wiki-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img {
+    border-radius: 50px;
+    background-color: #050D13;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.modal-content {
+    background-color: #0E151E;
+    color: #FFFFFF;
+}
+
+.modal-body .modal-title {
+    font-size: 36px;
+    margin-bottom: 33px;
+}
+
+.modal-body>p {
+    font-size: 24px;
+}
+
+.modal-content {
+    width: 850px;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    padding: 0 35px;
+}
